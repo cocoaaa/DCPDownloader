@@ -1,0 +1,5 @@
+# ignore data folder
+*/outs
+
+# ignore jupyter related 
+*/.ipynb_checkpoints
