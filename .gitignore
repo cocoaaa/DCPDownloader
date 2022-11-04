@@ -1,5 +1,6 @@
 # ignore data folder
-*/outs
+*/outs*
 
 # ignore jupyter related 
 */.ipynb_checkpoints
+*/__pycache__
