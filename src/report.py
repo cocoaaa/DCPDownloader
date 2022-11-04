@@ -1,7 +1,6 @@
 import os,sys
 from pathlib import Path
 from typing import Any,List, Set, Dict, Tuple, Optional, Iterable, Mapping, Union, Callable, TypeVar
-from tqdm import tqdm
 
 # import for webcrawling
 import bs4

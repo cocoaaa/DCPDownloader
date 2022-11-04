@@ -15,10 +15,6 @@ from bs4 import BeautifulSoup as bs
 from urllib.parse import urljoin, urlparse
 import requests
 
-# ## Import ReprLearn and TileMani packages
-from reprlearn.visualize.utils import get_fig, show_timg, show_timgs, show_npimgs, show_batch, make_grid_from_tensors
-from reprlearn.utils.misc import info, now2str, today2str, get_next_version_path, n_iter_per_epoch
-
 # ## Set Path 
 ROOT = Path(os.getcwd())
 SRC = ROOT/'src'
@@ -119,5 +115,9 @@ def download_visits(start_vid:int = 0, end_vid: int=22980, out_dir: Optional[str
 
 if __name__ == '__main__':
     print('Start downloading ...')
-    download_visits(0,10, out_dir='./outs2')
+    # test with visits from 0 to 10 (inclusive). save to outs dir (will be created if not existing)
+    download_visits(0,10, out_dir='./outs')
+
+    # download images from  all visits and save to `./outs` folder
+    # download_visits(out_dir='./outs')
     print('Finished downloading!')
