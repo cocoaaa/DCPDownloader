@@ -10,7 +10,7 @@ of people who took the visit.
 The first visit posted on the website dates back to 1996. Feb. 20, by Alex Jarrett (project founder)
 and Peter Cline  at 43N 72W in New Hampshire, USA.
 
-This repo contains code to parse the html of each visit report and download images  useful
+This repo contains code to parse the html of each visit report and download images and  useful
 metadata about the visit, such as lat, lng and text description uploaded from the visitor.
 
 
