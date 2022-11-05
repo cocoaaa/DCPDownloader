@@ -1,4 +1,6 @@
 # Downalod images from Degree Confluence Project (DCP)
+![dcp-banner](media/dcp_banner.jpeg)
+
 [Degree Confluence Project (DCP)](https://confluence.org/infoconf.php) is a voluntary project to 
 "visit each of the lat, lng integer degree intersections in the world, and to take pictures at each
 location".
