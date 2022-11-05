@@ -1,3 +1,7 @@
+# Downalod images from Degree Confluence Project (DCP)
+
+
+## How to install package and download images from DCP
 Two packages will be needed (beautifulsoup4 and requests):
 `conda install -c conda-forge bs4 requests`
 
