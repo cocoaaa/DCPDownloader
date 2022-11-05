@@ -1,4 +1,15 @@
 # Downalod images from Degree Confluence Project (DCP)
+[Degree Confluence Project (DCP)](https://confluence.org/infoconf.php) is a voluntary project to 
+"visit each of the lat, lng integer degree intersections in the world, and to take pictures at each
+location".
+Each report contains images taken at the confluence point, as well as rich narrative on the stories
+of people who took the visit.
+
+The first visit posted on the website dates back to 1996. Feb. 20, by Alex Jarrett (project founder)
+and Peter Cline  at 43N 72W in New Hampshire, USA.
+
+This repo contains code to parse the html of each visit report, and download images and parse useful
+metadata about the visit: lat, lng, text description uploaded from the visitor.
 
 
 ## How to install package and download images from DCP
