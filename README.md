@@ -19,8 +19,8 @@ Two packages will be needed (beautifulsoup4 and requests):
 `conda install -c conda-forge bs4 requests`
 
 Currently `main.py` is set to test run for the first 11 visits.
-You could try it first to see if it works: the downloaded images will be saved to outs folder (which will be created if not existing).
-If it works, then you can comment out line 119 and uncomment line 122 to download images from all visits
+You could try it first to see if it works: the downloaded images will be saved to an output folder, which can be specified as an argument of `--out_dir` (default: `outs`). The output folder will be created if not existing.
+If the code works on retrieving and parsing the first 11 visits, then you can comment out line 119 and 122 to download images from _all_ visits
 
 ## How to generate train/test csv files of $img_fp, $label_str based on the download images
 Once the images are downloaded, you can run:
